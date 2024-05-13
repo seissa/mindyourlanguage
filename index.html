@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, 
+					initial-scale=1.0"> 
+	<link rel="stylesheet"
+		href="style.css"> 
+	<link rel="stylesheet"
+		href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> 
+	<link rel="stylesheet" 
+		href="popup.css">
+	<title>Mind Your Civil Service Language</title> 
+</head> 
+
+<body> 
+	<h2>Mind Your (Civil Service) Language!</h2> 
+	<center><h3>Have you ever wondered why you don't seem to understand what everyone is saying when you first joined the service?</h3></center>
+<!-- Search form -->
+<div class="search-container">
+    <input type="text" id="searchInput" placeholder="Enter a word...">
+    <button onclick="searchDictionary()">Search</button>
+</div>
+
+<!-- Popup -->
+<div id="dictionaryPopup" class="modal">
+  <div class="modal-content" id="popupContent">
+    <span class="close" onclick="closeDictionaryPopup()">&times;</span>
+    <div id="dictionaryOutput"></div>
+    <button onclick="closeDictionaryPopup()">OK</button>
+  </div>
+</div>
+
+<script src="dictionary.js"></script>
+<script src="popup.js"></script> <!-- Separate JavaScript file for handling popup functionality -->
+</body>
+</html>
