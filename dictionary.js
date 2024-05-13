@@ -5,12 +5,14 @@ var dictionary = [
     {
         word: "ob markers",
         definition: "Out of Bound markers",
-        suggestedUse: "Use when discussing sports rules."
+        suggestedUse: "Use when trying to say something is taboo."
+        
     },
     {
         word: "no regret moves",
         definition: "decisions that we must make regardless",
         suggestedUse: "Use when discussing sports rules."
+        
     },
     // Add more entries as needed
 ];
@@ -34,6 +36,7 @@ function createEntryElement(entry) {
         <div class="word">${entry.word}</div>
         <div class="definition">${entry.definition}</div>
         <div class="suggested-use">Suggested Use: ${entry.suggestedUse}</div>
+
     `;
     return entryElement;
 }
@@ -43,12 +46,14 @@ function addToDictionary() {
     var word = document.getElementById("word").value;
     var definition = document.getElementById("definition").value;
     var suggestedUse = document.getElementById("suggestedUse").value;
+    
 
     if (word && definition) {
         var entry = {
             word: word,
             definition: definition,
-            suggestedUse: suggestedUse
+            suggestedUse: suggestedUse,
+            
         };
 
         // Add the new entry to the dictionary array
