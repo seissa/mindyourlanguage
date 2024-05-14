@@ -5,13 +5,19 @@ var dictionary = [
     {
         word: "ob markers",
         definition: "Out of Bound markers",
-        suggestedUse: "Use when trying to say something is taboo."
+        suggestedUse: "When trying to say something is taboo."
         
     },
     {
         word: "no regret moves",
         definition: "decisions that we must make regardless",
-        suggestedUse: "Use when discussing sports rules."
+        suggestedUse: "When trying to convince bosses that this is something that we must do even if it sounds like a bad idea now."
+        
+    },
+    {
+        word: "low hanging fruit",
+        definition: "most easily achieved set of outcomes or goals",
+        suggestedUse: "When trying to get buy-in for a project haha"
         
     },
     // Add more entries as needed

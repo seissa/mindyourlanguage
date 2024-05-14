@@ -19,7 +19,7 @@ h2 {
 } 
 
 .search-container {
-	position: fixed;
+	position: relative;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -27,7 +27,12 @@ h2 {
 	margin-top: 5px;
   }
   
-  .search-container input[type="text"],
+  .search-container input[type="text"] {
+	padding: 10px; 
+	font-size: 16px; 
+  }
+  
   .search-container button {
-	margin: 6px;
+	padding: 10px 20px; 
+	font-size: 16px; 
   }
