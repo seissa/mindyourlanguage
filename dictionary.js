@@ -20,6 +20,12 @@ var dictionary = [
         suggestedUse: "When trying to get buy-in for a project haha"
         
     },
+    {
+        word: "next bound",
+        definition: "a cooler alternative to 'next stage' or 'next phase'",
+        suggestedUse: "When trying to signal that your project has moved on after 10 years"
+        
+    },
     // Add more entries as needed
 ];
 
