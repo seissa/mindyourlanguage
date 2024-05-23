@@ -3,27 +3,33 @@
 // Define the dictionary array to store word definitions
 var dictionary = [
     {
-        word: "ob markers",
+        word: "OB markers",
         definition: "Out of Bound markers",
         suggestedUse: "When trying to say something is taboo."
         
     },
     {
-        word: "no regret moves",
-        definition: "decisions that we must make regardless",
+        word: "No regret moves",
+        definition: "Decisions that we must make regardless",
         suggestedUse: "When trying to convince bosses that this is something that we must do even if it sounds like a bad idea now."
         
     },
     {
-        word: "low hanging fruit",
-        definition: "most easily achieved set of outcomes or goals",
-        suggestedUse: "When trying to get buy-in for a project haha"
+        word: "Low hanging fruit",
+        definition: "Most easily achieved set of outcomes or goals",
+        suggestedUse: "When trying to get buy-in for a project or initiatves by saying that it's low effort"
         
     },
     {
-        word: "next bound",
-        definition: "a cooler alternative to 'next stage' or 'next phase'",
+        word: "Next bound",
+        definition: "A cooler alternative to 'next stage' or 'next phase'",
         suggestedUse: "When trying to signal that your project has moved on after 10 years"
+        
+    },
+    {
+        word: "Optional",
+        definition: "Not optional (usually)",
+        suggestedUse: "When trying to give a false sense of choice. Alternatively, can use 'encouraged to'"
         
     },
     // Add more entries as needed
