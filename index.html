@@ -17,8 +17,9 @@
 </head> 
 
 <body> 
-	<center><a href="https://imgbb.com/"><img src="https://i.ibb.co/87X5PHS/MYLlogo.png" alt="MYLlogo" border="0"></a></center>
-	<center>Have you ever wondered what your bosses or colleagues really mean when they say "This meeting is optional."?</center>
+	<center><img src="https://i.ibb.co/F6NNkWT/Screenshot-2024-05-26-at-10-36-21-PM.png" alt="Screenshot-2024-05-26-at-10-36-21-PM" border="0"></center>
+	<p><center>Have you ever wondered what your bosses or colleagues really mean when they say "This meeting is optional."? You are not alone.</center></p>
+	<p><center>Use this dictionary to help you with clearing - and not adding on, hopefully - communication barriers at work!</center></p>
 <!-- Search form -->
 <div class="search-container">
     <input type="text" id="searchInput" placeholder="Enter a word...">
@@ -34,7 +35,21 @@
   </div>
 </div>
 
+<!-- Footer -->
+<div class="footer">
+    <p><center>Didn't find what you need? <a href="#" onclick="openEmail()">Click here to suggest a new entry.</a></p></center>
+</div>
+
 <script src="dictionary.js"></script>
 <script src="popup.js"></script> 
+
+<script>
+	function openEmail() {
+		const email = "bulgier.granite0a@icloud.com"; // Replace with your email address
+		const subject = "New Word Submission";
+		const body = "Word:%0D%0A%0D%0ADefinition:%0D%0A%0D%0ASuggested use:%0D%0A%0D%0A";
+		window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+	}
+	</script>
 </body>
 </html>
