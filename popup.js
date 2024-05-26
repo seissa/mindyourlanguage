@@ -1,6 +1,4 @@
-// popup.js
 
-// Function to handle search operation
 function searchDictionary() {
     var searchWord = document.getElementById("searchInput").value.toLowerCase();
     var entry = dictionary.find(function(item) {
@@ -26,13 +24,11 @@ function displayPopupContent(entry) {
     `;
 }
 
-// Function to open the popup
 function openDictionaryPopup() {
     var modal = document.getElementById("dictionaryPopup");
     modal.style.display = "block";
 }
 
-// Function to close the popup
 function closeDictionaryPopup() {
     var modal = document.getElementById("dictionaryPopup");
     modal.style.display = "none";

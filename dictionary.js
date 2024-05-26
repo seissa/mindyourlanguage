@@ -1,6 +1,4 @@
-// dictionary.js
 
-// Define the dictionary array to store word definitions
 var dictionary = [
     {
         word: "OB markers",
@@ -32,10 +30,9 @@ var dictionary = [
         suggestedUse: "When trying to give a false sense of choice. Alternatively, can use 'encouraged to'"
         
     },
-    // Add more entries as needed
+    
 ];
 
-// Function to render the dictionary entries
 function renderDictionary() {
     var dictionaryContainer = document.getElementById("dictionary");
     dictionaryContainer.innerHTML = "";
@@ -59,7 +56,7 @@ function createEntryElement(entry) {
     return entryElement;
 }
 
-// Function to add a new entry to the dictionary
+
 function addToDictionary() {
     var word = document.getElementById("word").value;
     var definition = document.getElementById("definition").value;
