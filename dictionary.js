@@ -30,7 +30,18 @@ var dictionary = [
         suggestedUse: "When trying to give a false sense of choice. Alternatively, can use 'encouraged to'"
         
     },
-    
+    {
+        word: "PG",
+        definition: "Plead guilty",
+        suggestedUse: "When trying to own up to your mistakes before your boss catches you; 'Boss, I PG first.'"
+        
+    },
+    {
+        word: "NFA",
+        definition: "No Further Action",
+        suggestedUse: "When clarifying that the issue has closed, and that no follow-ups are necessary"
+        
+    },
 ];
 
 function renderDictionary() {
