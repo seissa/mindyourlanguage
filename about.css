@@ -1,0 +1,88 @@
+/* style.css */
+
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the header */
+  header {
+    background: #ffffff; /* Light background color for header */
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  /* Style for the navigation bar */
+  nav {
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #007bff; /* Link color */
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for the header title */
+  header h1 {
+    margin-bottom: 10px; /* Add some space below the heading */
+  }
+  
+  /* About page specific styles */
+  .about-title {
+    font-family: 'Aptos', sans-serif; 
+    font-size: 12px;
+    color: black;
+    margin-bottom: 20px; /* Add some space below the H1 heading */
+  }
+  
+  /* Content section styles */
+  .content {
+    padding: 60px 0;
+  }
+  
+  .content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+  }
+  
+  .content img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+  }
+  
+  .content p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  /* Footer styling */
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+  
