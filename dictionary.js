@@ -15,7 +15,7 @@ var dictionary = [
     {
         word: "Low hanging fruit",
         definition: "Most easily achieved set of outcomes or goals",
-        suggestedUse: "When trying to get buy-in for a project or initiatves by saying that it's low effort"
+        suggestedUse: "When trying to get buy-in for a project or initiatves by saying that it's low effort, helps with KPIs."
         
     },
     {
@@ -42,6 +42,44 @@ var dictionary = [
         suggestedUse: "When clarifying that the issue has closed, and that no follow-ups are necessary"
         
     },
+    {
+        word: "North Star",
+        definition: "Your most long-term, high-level outcomes that you're working towards",
+        suggestedUse: "When explaining the ultimate goal that your project aspires to achieve"
+        
+    },
+    {
+        word: "TechUp",
+        definition: "One month training programme to earn street cred at the table when talking about ops-tech integration",
+        suggestedUse: "When someone who knows nothing about said topic and tries to mansplain to you; 'I was at TechUp, so you can stop now.'"
+        
+    },
+    {
+        word: "Future proofing",
+        definition: "An approach to make a product or system more likely to withstand the shocks and stresses of future events",
+        suggestedUse: "When trying to convince people that the value of doing something is in the long term; 'We are future-proofing our laws in view of technological advancements by doing this now'" 
+        
+    },
+    {
+        word: "OTOT",
+        definition: "Own time, own target",
+        suggestedUse: "Free pass to do what you do as long as you meet the deadline." 
+        
+    },
+    {
+        word: "Die on this hill",
+        definition: "Something you pursue wholeheartedly with no regard to the price you have to pay",
+        suggestedUse: "When trying to show your commitment to the issue on hand - or alternatively, explaining why you're giving up; 'Since big boss has expressed reservations, then let's not die on this hill la.'" 
+        
+    },
+    {
+        word: "Moving goalpost",
+        definition: "Shifting objectives and outcomes",
+        suggestedUse: "Please don't get me started.'" 
+        
+    },
+    
+
 ];
 
 function renderDictionary() {
